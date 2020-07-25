@@ -33,7 +33,7 @@ _This includes but is not limited to:_
   
 ###Spontaneous Task Management:
 To illustrate, 'It's a Friday afternoon, late at school. You are a History lesson, 
-heading to English. Between the change, in the last 5 mins the History teacher reminds you 
+heading to English. In between the change, in the last 5 mins the History teacher reminds you 
 to do something small, being Friday did you even bother to remember... Probably not.
 Therefore, bring the program in to picture, you were checking the timetable anyways,
 so you added the new task to the task list built in.'
