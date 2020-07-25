@@ -44,7 +44,7 @@ _This is effective because:_
 3. Always knowing what to do, means you know when + how to do it. ('Why' -> Simply to clear the TODO)
 
 ###On the Name?
-I believe in creating new innovative applications that benifit the intended
-audiance. Hence, the norms are not welcome in my programs. Identifyingly, 
+I believe in creating innovative applications that benifit the intended
+target audience. Hence, the norms are not welcome in my programs. Identifiably, 
 the name should reflect the innovation of trying something new in the brand
-and also the playfulness that is associated with it. Comes the name -> DailyBreif
+also the playfulness that is associated with it. Comes the name -> DailyBreif
