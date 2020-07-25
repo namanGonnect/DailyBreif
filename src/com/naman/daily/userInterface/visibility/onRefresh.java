@@ -1,12 +1,12 @@
-package com.naman.daily.user_interface.visibility;
+package com.naman.daily.userInterface.visibility;
 
-import com.naman.daily.user_interface.DailyReportDesign;
+import com.naman.daily.userInterface.dailyReportDesign;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class ON_REFRESH {
-    public void visibilityOnRefresh(DailyReportDesign ui) {
+public class onRefresh {
+    public void visibilityOnRefresh(dailyReportDesign ui) {
         ui.getRefreshButton().addActionListener(new ActionListener() {
 
             @Override

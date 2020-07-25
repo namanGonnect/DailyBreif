@@ -1,9 +1,9 @@
-package com.naman.daily.user_interface;
+package com.naman.daily.userInterface;
 
 import javax.swing.*;
 import java.awt.*;
 
-public class DailyReportDesign extends JFrame{
+public class dailyReportDesign extends JFrame{
 
     private JPanel Window;
     private JTextArea textPain;

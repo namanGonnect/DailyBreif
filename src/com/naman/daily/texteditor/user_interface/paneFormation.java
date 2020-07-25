@@ -3,7 +3,7 @@ package com.naman.daily.texteditor.user_interface;
 import javax.swing.*;
 import com.naman.daily.texteditor.attributes.actions.fileSelector;
 
-public class PaneFormation {
+public class paneFormation {
 
     private JFrame frame = new JFrame();
 

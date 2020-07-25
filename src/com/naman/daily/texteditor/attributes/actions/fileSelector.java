@@ -1,6 +1,6 @@
 package com.naman.daily.texteditor.attributes.actions;
 
-import com.naman.daily.user_interface.DailyReportDesign;
+import com.naman.daily.userInterface.dailyReportDesign;
 
 import javax.swing.*;
 import java.util.Scanner;
@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class fileSelector {
     String file = null;
 
-    public String getFileDirectory(DailyReportDesign ui) {
+    public String getFileDirectory(dailyReportDesign ui) {
 
         try {
             StringBuilder sb = new StringBuilder();

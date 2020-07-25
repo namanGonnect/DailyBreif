@@ -1,15 +1,15 @@
 package com.naman.daily.actions.button;
 
 import com.naman.daily.attributes.Timetable;
-import com.naman.daily.user_interface.DailyReportDesign;
-import com.naman.daily.user_interface.visibility.AFTER_TIMETABLE;
+import com.naman.daily.userInterface.dailyReportDesign;
+import com.naman.daily.userInterface.visibility.afterTimetable;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class timetableButtonListener {
 
-    public void listenTimetableButton(DailyReportDesign ui){
+    public void listenTimetableButton(dailyReportDesign ui){
 
         ui.getTimetableButton().addActionListener(new ActionListener() {
 
@@ -21,7 +21,7 @@ public class timetableButtonListener {
                 timetable.getTimeTable(ui);
 
                 //T O D O Start
-                AFTER_TIMETABLE visibilityAfterTimetable = new AFTER_TIMETABLE();
+                afterTimetable visibilityAfterTimetable = new afterTimetable();
                 visibilityAfterTimetable.visibilityAfterTimetable(ui);
             }
 

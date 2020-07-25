@@ -1,9 +1,9 @@
 package com.naman.daily.attributes.todo;
 import com.naman.daily.actions.button.todo.process.*;
-import com.naman.daily.user_interface.DailyReportDesign;
+import com.naman.daily.userInterface.dailyReportDesign;
 
 public class Todo {
-    public void getTodoCapability(DailyReportDesign ui) {
+    public void getTodoCapability(dailyReportDesign ui) {
 
         //Simple Append Button
         appendTodoButtonListener appendTodoButtonListener = new appendTodoButtonListener();

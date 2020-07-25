@@ -1,8 +1,6 @@
 package com.naman.daily.actions.button.todo.process;
 
-import com.naman.daily.attributes.Objective;
-import com.naman.daily.user_interface.DailyReportDesign;
-import com.naman.daily.user_interface.visibility.AFTER_OBJECTIVE;
+import com.naman.daily.userInterface.dailyReportDesign;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -13,7 +11,7 @@ import java.io.IOException;
 
 public class appendTodoButtonListener {
 
-    public void listenAppendTodoButton(DailyReportDesign ui) {
+    public void listenAppendTodoButton(dailyReportDesign ui) {
         ui.getTodoAppendButton().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

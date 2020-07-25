@@ -1,15 +1,14 @@
 package com.naman.daily.actions.button.todo.process;
 
-import com.naman.daily.user_interface.DailyReportDesign;
+import com.naman.daily.userInterface.dailyReportDesign;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
-import java.util.Calendar;
 import java.util.Scanner;
 
 public class showTodoButtonListener {
-    public void listenShowTodoButton(DailyReportDesign ui) {
+    public void listenShowTodoButton(dailyReportDesign ui) {
         ui.getShowTodoButton().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

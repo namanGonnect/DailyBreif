@@ -1,9 +1,9 @@
-package com.naman.daily.user_interface.visibility;
+package com.naman.daily.userInterface.visibility;
 
-import com.naman.daily.user_interface.DailyReportDesign;
+import com.naman.daily.userInterface.dailyReportDesign;
 
-public class AFTER_TIME {
-    public void visibilityAfterTime(DailyReportDesign ui) {
+public class afterTime {
+    public void visibilityAfterTime(dailyReportDesign ui) {
 
         //Button Preferences
         ui.getObjectiveButton().setText("Get Objective");

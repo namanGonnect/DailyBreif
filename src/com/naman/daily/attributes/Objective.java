@@ -1,19 +1,18 @@
 package com.naman.daily.attributes;
 
-import com.naman.daily.user_interface.DailyReportDesign;
-import com.naman.daily.user_interface.fonts.SansProFont;
+import com.naman.daily.userInterface.dailyReportDesign;
+import com.naman.daily.userInterface.fonts.sansProFont;
 
-import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
 public class Objective {
 
-    public void getObjectiveMessage(DailyReportDesign ui) {
+    public void getObjectiveMessage(dailyReportDesign ui) {
 
         //Font of Choice
-        SansProFont font = new SansProFont();
+        sansProFont font = new sansProFont();
 
         //Compose Welcome
         StringBuilder welcomeMessage = new StringBuilder();

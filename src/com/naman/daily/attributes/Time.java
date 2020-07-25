@@ -1,17 +1,16 @@
 package com.naman.daily.attributes;
 
-import com.naman.daily.user_interface.DailyReportDesign;
-import com.naman.daily.user_interface.fonts.SansProFont;
+import com.naman.daily.userInterface.dailyReportDesign;
+import com.naman.daily.userInterface.fonts.sansProFont;
 
-import java.awt.*;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class Time {
-    public void getWelcome(DailyReportDesign ui) {
+    public void getWelcome(dailyReportDesign ui) {
 
         //Font of Choice
-        SansProFont font = new SansProFont();
+        sansProFont font = new sansProFont();
 
         //Compose Welcome
         StringBuilder welcomeMessage = new StringBuilder();
@@ -47,10 +46,10 @@ public class Time {
         String time = formatter.format(calendar.getTime());
         String greetingType = null;
 
-        String[] a = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24"};
+        String[] possibleTimes = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24"};
 
-        for (int i = 0; i < a.length; i++) {
-            switch (a[i]) {
+        for (int i = 0; i < possibleTimes.length; i++) {
+            switch (possibleTimes[i]) {
                 case "0", "1", "2", "3", "20", "21", "22", "23", "24": {
                     greetingType = "Good Night ";
                     break;

@@ -1,11 +1,11 @@
-package com.naman.daily.user_interface.colors;
+package com.naman.daily.userInterface.colors;
 
-import com.naman.daily.user_interface.DailyReportDesign;
+import com.naman.daily.userInterface.dailyReportDesign;
 
 import java.awt.*;
 
 public class spacerLabelColoring {
-    public void makeSpacersInvisible(DailyReportDesign ui) {
+    public void makeSpacersInvisible(dailyReportDesign ui) {
 
         //Change the text color
         ui.getSpaceLabelLeft().setForeground(Color.DARK_GRAY);

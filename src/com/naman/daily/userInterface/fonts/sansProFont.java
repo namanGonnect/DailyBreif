@@ -1,8 +1,8 @@
-package com.naman.daily.user_interface.fonts;
+package com.naman.daily.userInterface.fonts;
 
 import java.awt.*;
 
-public class SansProFont {
+public class sansProFont {
     Font fontStandard = new Font("SF Pro Text", Font.PLAIN,18);
     Font fontBold = new Font("SF Pro Text", Font.BOLD,18);
     Font fontSlant = new Font("SF Pro Text", Font.ITALIC,18);

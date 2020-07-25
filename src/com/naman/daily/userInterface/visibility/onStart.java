@@ -1,9 +1,9 @@
-package com.naman.daily.user_interface.visibility;
+package com.naman.daily.userInterface.visibility;
 
-import com.naman.daily.user_interface.DailyReportDesign;
+import com.naman.daily.userInterface.dailyReportDesign;
 
-public class ON_START {
-    public void visibilityOnStart(DailyReportDesign ui){
+public class onStart {
+    public void visibilityOnStart(dailyReportDesign ui){
 
         //Next Process Objects and writing enabled
         //Time object button

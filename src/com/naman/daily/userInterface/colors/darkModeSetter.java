@@ -1,4 +1,4 @@
-package com.naman.daily.user_interface.colors;
+package com.naman.daily.userInterface.colors;
 
 import javax.swing.*;
 import java.awt.*;

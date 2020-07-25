@@ -1,12 +1,16 @@
 package com.naman.daily.attributes;
 
-import com.naman.daily.user_interface.DailyReportDesign;
-import com.naman.daily.user_interface.fonts.SansProFont;
+import com.naman.daily.userInterface.dailyReportDesign;
+import com.naman.daily.userInterface.fonts.sansProFont;
 
 import java.util.Calendar;
 
 public class Timetable {
     String[][] timetable = dataForTimeTable();
+
+    private void links(){
+        //TODO - Make a variable (Object) for each subject and add capability to link it to a separate task list -> Which can be printed at runtime.
+    }
 
     private String[][] dataForTimeTable() {
         timetable = new String[7][10];
@@ -28,10 +32,10 @@ public class Timetable {
     }
 
 
-    public void getTimeTable(DailyReportDesign ui) {
+    public void getTimeTable(dailyReportDesign ui) {
         try {
 
-            SansProFont font = new SansProFont();
+            sansProFont font = new sansProFont();
             ui.getTextPain().setFont(font.getFontStandard());
 
             if (Calendar.getInstance().get(Calendar.HOUR_OF_DAY) > 17) {
@@ -75,7 +79,7 @@ public class Timetable {
         }
     }
 
-    private void printTimeTable(int day, DailyReportDesign ui) {
+    private void printTimeTable(int day, dailyReportDesign ui) {
         String[] subjects = timetable[day];
         try {
             ui.getTextPain().append("\n");
