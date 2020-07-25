@@ -1,4 +1,4 @@
-#Daily Breif:
+# Daily Breif: 
 The soul purpose of this program is to provide three sources of 
 confusion in school a way to become resolved. As such, it aims to rectify:
 
@@ -6,7 +6,7 @@ confusion in school a way to become resolved. As such, it aims to rectify:
      -> Students not being able to recieve motivation whilst in class.
      -> Requirements to store spontaneous tasks and make sure they get done.
    
-###Timetables:
+### Timetables: 
 A timetable is something that all students receive in most schools 
 and ensures that they reach the correct class in the correct room.
 However, these simple objects become lost so frequently that in reality the 
@@ -21,7 +21,7 @@ Which refers to a timetable printed at runtime.
  - Shows subject of period
  - Hours left in day
  
-###Motivational Aspect:
+### Motivational Aspect: 
 In conjunction to the easing loss of tension coming from an always available 
 timetable, a motivational message is displayed to uplift student mood 
 and higher the chances of confident & as strong learning. 
@@ -31,7 +31,7 @@ _This includes but is not limited to:_
   - Complex quotes that get the brain thinking.
   - Plain comments of pure uplift. 
   
-###Spontaneous Task Management:
+### Spontaneous Task Management: 
 To illustrate, 'It's a Friday afternoon, late at school. You are a History lesson, 
 heading to English. In between the change, in the last 5 mins the History teacher reminds you 
 to do something small, being Friday did you even bother to remember... Probably not.
@@ -43,7 +43,7 @@ _This is effective because:_
 2. It ensures that small things don't add up to = big losses
 3. Always knowing what to do, means you know when + how to do it. ('Why' -> Simply to clear the TODO)
 
-###On the Name?
+### On the Name? 
 I believe in creating innovative applications that benifit the intended
 target audience. Hence, the norms are not welcome in my programs. Identifiably, 
 the name should reflect the innovation of trying something new in the brand
