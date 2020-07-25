@@ -42,3 +42,9 @@ _This is effective because:_
 1. The program removes friction -> against doing a task
 2. It ensures that small things don't add up to = big losses
 3. Always knowing what to do, means you know when + how to do it. ('Why' -> Simply to clear the TODO)
+
+###On the Name?
+I believe in creating new innovative applications that benifit the intended
+audiance. Hence, the norms are not welcome in my programs. Identifyingly, 
+the name should reflect the innovation of trying something new in the brand
+and also the playfulness that is associated with it. Comes the name -> DailyBreif
