@@ -1,0 +1,66 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {space :::p, par l {comp appName::l:p:594:p, comp textAreaMain::l:p:474:p}, space ::68:x}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp appName:::p:151:p, space :::p, comp textAreaMain:::p:199:p, space ::72:x}}"
+		} ) {
+			name: "mainFrame"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "appName"
+				"text": "Daily Breif"
+			} )
+			add( new FormComponent( "javax.swing.JTextArea" ) {
+				name: "textAreaMain"
+			} )
+			menuBar: new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBarMain"
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menuTodo"
+					"text": "TODO"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "showTodoItem"
+						"text": "Show"
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menuSchedule"
+					"text": "Schedule"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "showScheduleItem"
+						"text": "Show - Coming Soon"
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menuDaily"
+					"text": "Breif"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "showTimeItem"
+						"text": "Time"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "showObjectiveItem"
+						"text": "Objective"
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "showTimetableItem"
+						"text": "Time-Table"
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "refreshButton"
+					"text": "Refresh"
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "refreshManWindowItem"
+						"text": "Refresh Window"
+					} )
+				} )
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 35 )
+			"size": new java.awt.Dimension( 670, 480 )
+		} )
+	}
+}
