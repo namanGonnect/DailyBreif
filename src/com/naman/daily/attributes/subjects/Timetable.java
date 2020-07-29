@@ -1,7 +1,8 @@
-package com.naman.daily.attributes;
+package com.naman.daily.attributes.subjects;
 
 import com.naman.daily.userInterface.dailyReportDesign;
 import com.naman.daily.userInterface.fonts.sansProFont;
+import com.naman.daily.userInterface.frame.windowInterface;
 
 import java.util.Calendar;
 
@@ -32,17 +33,17 @@ public class Timetable {
     }
 
 
-    public void getTimeTable(dailyReportDesign ui) {
+    public void getTimeTable(windowInterface ui) {
         try {
 
             sansProFont font = new sansProFont();
-            ui.getTextPain().setFont(font.getFontStandard());
+            ui.getTextAreaMain().setFont(font.getFontStandard());
 
             if (Calendar.getInstance().get(Calendar.HOUR_OF_DAY) > 17) {
-                ui.getTextPain().append("\n" + "\n" + "All Done For Today :)");
+                ui.getTextAreaMain().append("\n" + "\n" + "All Done For Today :)");
             } else {
 
-                ui.getTextPain().append("\n");
+                ui.getTextAreaMain().append("\n");
                 String day = null;
 
                 if (Calendar.getInstance().get(Calendar.DAY_OF_WEEK) == 2) {
@@ -67,7 +68,7 @@ public class Timetable {
                     day = "Sunday";
                 }
 
-                ui.getTextPain().append("\n" +
+                ui.getTextAreaMain().append("\n" +
                         "Timetable For " + day +
                         ":" + "\n");
 
@@ -79,21 +80,21 @@ public class Timetable {
         }
     }
 
-    private void printTimeTable(int day, dailyReportDesign ui) {
+    private void printTimeTable(int day, windowInterface ui) {
         String[] subjects = timetable[day];
         try {
-            ui.getTextPain().append("\n");
+            ui.getTextAreaMain().append("\n");
             for (int counter = 0; counter < subjects.length; ++counter) {
-                ui.getTextPain().append("+---+-------------+\n");
-                ui.getTextPain().append("| " + (counter + 1) + " | ");
-                ui.getTextPain().append(subjects[counter]);
+                ui.getTextAreaMain().append("+---+-------------+\n");
+                ui.getTextAreaMain().append("| " + (counter + 1) + " | ");
+                ui.getTextAreaMain().append(subjects[counter]);
                 for (int padCounter = 0; padCounter < (12 - subjects[counter].length()); ++padCounter) {
-                    ui.getTextPain().append(" ");
+                    ui.getTextAreaMain().append(" ");
                 }
-                ui.getTextPain().append("|\n");
+                ui.getTextAreaMain().append("|\n");
             }
-            ui.getTextPain().append("+---+-------------+");
-            ui.getTextPain().append("\n");
+            ui.getTextAreaMain().append("+---+-------------+");
+            ui.getTextAreaMain().append("\n");
         } catch (Exception e) {
             e.printStackTrace();
         }

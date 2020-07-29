@@ -1,14 +1,13 @@
 package com.naman.daily.userInterface.visibility;
 
 import com.naman.daily.userInterface.dailyReportDesign;
+import com.naman.daily.userInterface.frame.windowInterface;
 
 public class afterTime {
-    public void visibilityAfterTime(dailyReportDesign ui) {
+    public void visibilityAfterTime(windowInterface ui) {
 
         //Button Preferences
-        ui.getObjectiveButton().setText("Get Objective");
-        ui.getTimeButton().setVisible(false);
-        ui.getObjectiveButton().setVisible(true);
-        ui.getTimetableButton().setVisible(false);
+        ui.getShowObjectiveItem().setText("Get Objective");
+        ui.getAppName().setVisible(false);
     }
 }

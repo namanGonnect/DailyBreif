@@ -1,14 +1,13 @@
 package com.naman.daily.userInterface.visibility;
 
-import com.naman.daily.userInterface.dailyReportDesign;
+import com.naman.daily.userInterface.frame.window.prompt.todoPrompt;
 
 public class inTodoMode {
 
-    public void visibilityDuringTodo(dailyReportDesign ui) {
+    public void visibilityDuringTodo(todoPrompt ui) {
 
-        //TO-DO elements enable
-        ui.getTodoAppendButton().setVisible(true);
-        ui.getDeleteTodoButton().setVisible(true);
-        ui.getShowTodoButton().setVisible(true);
+        //TO-DO elements double check
+        ui.getTextFieldTodoAppend().setVisible(true);
+        ui.getAppendTaskButton().setVisible(true);
     }
 }

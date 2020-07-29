@@ -8,24 +8,32 @@ import com.naman.daily.actions.button.timetableButtonListener;
 import com.naman.daily.userInterface.colors.*;
 import com.naman.daily.userInterface.visibility.onStart;
 import com.naman.daily.actions.button.refreshButtonListener;
+import com.naman.daily.userInterface.frame.windowInterface;
+import com.naman.daily.userInterface.fonts.sansProFont;
+import com.naman.daily.actions.button.todo.activate.showTodoButtonListener;
+import com.naman.daily.userInterface.frame.window.prompt.todoPrompt;
 
 public class Brief {
 
     public static void main(String[] args) {
 
+        // Font Controller
+        sansProFont sansProFont = new sansProFont();
+
         //User Interface Controller
-        dailyReportDesign ui = new dailyReportDesign();
-        ui.setWindow("Daily Brief");
+        windowInterface ui = new windowInterface();
+        ui.setMainFrame("Daily Brief", sansProFont.getFontTitle(), ui);
+
+        //T O D O Window Controller
+        todoPrompt todoPrompt = new todoPrompt();
 
         //Color Control
         darkModeSetter darkEnabler = new darkModeSetter();
-        darkEnabler.setColorTextArea(ui.getTextPain());
         spacerLabelColoring spacerLabelColoring = new spacerLabelColoring();
-        spacerLabelColoring.makeSpacersInvisible(ui);
 
         //Refresh Button Capabilities
         refreshButtonListener refreshButtonListener = new refreshButtonListener();
-        refreshButtonListener.listenRefreshButton(ui);
+        refreshButtonListener.listenRefreshButton(ui, sansProFont);
 
         //Optimize what can be seen
         onStart startVisibility = new onStart();
@@ -42,11 +50,9 @@ public class Brief {
         //TimeTable Button Listener
         timetableButtonListener timetableButtonListener = new timetableButtonListener();
         timetableButtonListener.listenTimetableButton(ui);
-        darkEnabler.setColorLabel(ui.getCommBoxLabel());
 
-        //Enable TO-DO
-        Todo todo = new Todo();
-        todo.getTodoCapability(ui);
-
+        //Show T O D O interface listener
+        showTodoButtonListener showTodoButtonListener = new showTodoButtonListener();
+        showTodoButtonListener.listenObjectiveButton(ui, todoPrompt, sansProFont);
     }
 }

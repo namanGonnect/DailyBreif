@@ -1,6 +1,6 @@
 package com.naman.daily.actions.button.todo.process;
 
-import com.naman.daily.userInterface.dailyReportDesign;
+import com.naman.daily.userInterface.frame.window.prompt.todoPrompt;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -12,8 +12,8 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class deleteTodoButtonListener {
-    public void listenDeleteTodoButton(dailyReportDesign ui) {
-        ui.getDeleteTodoButton().addActionListener(new ActionListener() {
+    public void listenDeleteTodoButton(todoPrompt ui) {
+        ui.getDeleteTodoItem().addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
@@ -25,7 +25,7 @@ public class deleteTodoButtonListener {
                     writer.flush();
                     writer.close();
 
-                    ui.getCommBox().setText(null);
+                    ui.getTextFieldTodoAppend().setText(null);
                 } catch (IOException a) {
                     a.printStackTrace();
                 }

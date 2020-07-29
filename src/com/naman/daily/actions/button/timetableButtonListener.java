@@ -1,20 +1,24 @@
 package com.naman.daily.actions.button;
 
-import com.naman.daily.attributes.Timetable;
+import com.naman.daily.attributes.subjects.Timetable;
 import com.naman.daily.userInterface.dailyReportDesign;
 import com.naman.daily.userInterface.visibility.afterTimetable;
+import com.naman.daily.userInterface.frame.windowInterface;
 
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class timetableButtonListener {
 
-    public void listenTimetableButton(dailyReportDesign ui){
+    public void listenTimetableButton(windowInterface ui){
 
-        ui.getTimetableButton().addActionListener(new ActionListener() {
+        ui.getShowTimetableItem().addActionListener(new ActionListener() {
 
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                Toolkit.getDefaultToolkit().beep();
 
                 //Timetable process
                 Timetable timetable = new Timetable();

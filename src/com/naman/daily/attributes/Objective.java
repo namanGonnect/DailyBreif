@@ -2,6 +2,7 @@ package com.naman.daily.attributes;
 
 import com.naman.daily.userInterface.dailyReportDesign;
 import com.naman.daily.userInterface.fonts.sansProFont;
+import com.naman.daily.userInterface.frame.windowInterface;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +10,7 @@ import java.util.Random;
 
 public class Objective {
 
-    public void getObjectiveMessage(dailyReportDesign ui) {
+    public void getObjectiveMessage(windowInterface ui) {
 
         //Font of Choice
         sansProFont font = new sansProFont();
@@ -18,8 +19,8 @@ public class Objective {
         StringBuilder welcomeMessage = new StringBuilder();
 
         //Prep for Message
-        ui.getTextPain().setFont(font.getFontSlant());
-        ui.getTextPain().append("\n" + "\n");
+        ui.getTextAreaMain().setFont(font.getFontSlant());
+        ui.getTextAreaMain().append("\n" + "\n");
 
         //Building Final String - Separated for readability
         welcomeMessage.append("Remember to: ");
@@ -27,7 +28,7 @@ public class Objective {
         welcomeMessage.append(".");
 
         //Appending to UI
-        ui.getTextPain().append(welcomeMessage.toString());
+        ui.getTextAreaMain().append(welcomeMessage.toString());
     }
 
     private String getObjective() {
