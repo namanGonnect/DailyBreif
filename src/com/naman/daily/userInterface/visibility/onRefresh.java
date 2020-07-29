@@ -1,6 +1,5 @@
 package com.naman.daily.userInterface.visibility;
 
-import com.naman.daily.userInterface.dailyReportDesign;
 import com.naman.daily.userInterface.frame.windowInterface;
 import com.naman.daily.userInterface.fonts.sansProFont;
 

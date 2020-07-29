@@ -1,7 +1,6 @@
 package com.naman.daily.actions.button;
 
 import com.naman.daily.attributes.Objective;
-import com.naman.daily.userInterface.dailyReportDesign;
 import com.naman.daily.userInterface.visibility.afterObjective;
 import com.naman.daily.userInterface.frame.windowInterface;
 

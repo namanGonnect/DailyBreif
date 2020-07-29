@@ -1,6 +1,5 @@
 package com.naman.daily.attributes.subjects;
 
-import com.naman.daily.userInterface.dailyReportDesign;
 import com.naman.daily.userInterface.fonts.sansProFont;
 import com.naman.daily.userInterface.frame.windowInterface;
 

@@ -1,8 +1,6 @@
 package com.naman.daily.actions.button;
 
 import com.naman.daily.attributes.Time;
-import com.naman.daily.userInterface.dailyReportDesign;
-import com.naman.daily.userInterface.visibility.afterTime;
 import com.naman.daily.userInterface.frame.windowInterface;
 
 import java.awt.*;

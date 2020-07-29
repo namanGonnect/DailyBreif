@@ -1,7 +1,6 @@
 package com.naman.daily.control;
 
 import com.naman.daily.attributes.todo.Todo;
-import com.naman.daily.userInterface.dailyReportDesign;
 import com.naman.daily.actions.button.timeButtonListener;
 import com.naman.daily.actions.button.objectiveButtonListener;
 import com.naman.daily.actions.button.timetableButtonListener;
@@ -29,7 +28,6 @@ public class Brief {
 
         //Color Control
         darkModeSetter darkEnabler = new darkModeSetter();
-        spacerLabelColoring spacerLabelColoring = new spacerLabelColoring();
 
         //Refresh Button Capabilities
         refreshButtonListener refreshButtonListener = new refreshButtonListener();

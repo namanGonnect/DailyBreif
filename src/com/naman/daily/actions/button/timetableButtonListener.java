@@ -1,7 +1,6 @@
 package com.naman.daily.actions.button;
 
 import com.naman.daily.attributes.subjects.Timetable;
-import com.naman.daily.userInterface.dailyReportDesign;
 import com.naman.daily.userInterface.visibility.afterTimetable;
 import com.naman.daily.userInterface.frame.windowInterface;
 
