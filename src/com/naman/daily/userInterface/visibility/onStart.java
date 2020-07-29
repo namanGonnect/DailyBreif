@@ -10,16 +10,5 @@ public class onStart {
         ui.getShowTimeItem().setText("Get Report");
         ui.getAppName().setVisible(true);
 
-
-
-        //Visibility for unused objects disabled - invalid for V3 - Compatibility
-//        ui.getObjectiveButton().setVisible(false);
-//        ui.getTimetableButton().setVisible(false);
-//        ui.getDeleteTodoButton().setVisible(false);
-//        ui.getTodoAppendButton().setVisible(false);
-//        ui.getCommBox().setVisible(false);
-//        ui.getCommBoxLabel().setVisible(false);
-//        ui.getShowTodoButton().setVisible(false);
-
     }
 }

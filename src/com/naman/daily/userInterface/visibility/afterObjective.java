@@ -8,11 +8,5 @@ public class afterObjective {
         //Button Preferences
         ui.getShowTimetableItem().setText("Get Time-Table");
 
-        //In-valid for V3 user interface
-
-//        ui.getTimeButton().setVisible(false);
-//        ui.getObjectiveButton().setVisible(false);
-//        ui.getTimetableButton().setVisible(true);
-
     }
 }

@@ -1,7 +1,6 @@
 package com.naman.daily.actions.button;
 
 import com.naman.daily.attributes.subjects.Timetable;
-import com.naman.daily.userInterface.visibility.afterTimetable;
 import com.naman.daily.userInterface.frame.windowInterface;
 
 import java.awt.*;
@@ -23,9 +22,6 @@ public class timetableButtonListener {
                 Timetable timetable = new Timetable();
                 timetable.getTimeTable(ui);
 
-                //T O D O Start
-                afterTimetable visibilityAfterTimetable = new afterTimetable();
-                visibilityAfterTimetable.visibilityAfterTimetable(ui);
             }
 
         });
